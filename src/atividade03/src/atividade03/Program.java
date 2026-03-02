@@ -2,6 +2,14 @@ package atividade03;
 
 import java.util.Scanner;
 
+/*  Enunciado da Atividade03: 
+	Intersecção de vetores - Faça um programa que leia dois vetores de ínteiros representando
+	o número de matrícula de n alunos matriculados respectivamente em Programação e Modelagem.
+	Em seguida, o programa deverá imprimir o número de matrícula dos alunos que estão matrículados
+	simultaneamente nas duas UCs (ou seja, calcular a interseção dos dois vetores). O valor de n
+	é lido pelo teclado.
+ */
+
 public class Program {
 	public static void main(){
 		Scanner sc = new Scanner(System.in);

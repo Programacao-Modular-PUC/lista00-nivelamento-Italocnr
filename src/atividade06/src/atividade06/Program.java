@@ -8,8 +8,8 @@ public class Program {
 
 		int  nota = 0, aprovados= 0;
 		double pctAprovados;
-		int[] numAluno = new int[3];
-		int[] notaAlunos = new int[3];
+		int[] numAluno = new int[10];
+		int[] notaAlunos = new int[10];
 		char[] gabaritoCerto = new char[8];
 		char[] gabaritoAluno = new char[8];
 
@@ -25,7 +25,7 @@ public class Program {
 		}
 
 		System.out.println("--NOTAS DOS ALUNOS--");
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 10; i++) {
 			System.out.printf("Digite o numero do %d aluno", i+1);
 			numAluno[i] = sc.nextInt();
 
@@ -47,12 +47,14 @@ public class Program {
 			notaAlunos[i] = nota;
 			nota = 0;
 		}
-		pctAprovados = (aprovados / 3.0) * 100;
+		pctAprovados = (aprovados / 10.0) * 100;
 		
 		System.out.println("--RESULTADO--");
-		for (int i=0; i < 3; i++) {
+		for (int i=0; i < 10; i++) {
 			System.out.printf("Aluno: %d Nota: %d \n", numAluno[i], notaAlunos[i]);
 		}
-		System.out.printf("Porcentagem de aprovados: %.2f", pctAprovados);
+		System.out.printf("Porcentagem de aprovados: %.2f%%", pctAprovados);
+		
+		sc.close();
 	}
 }

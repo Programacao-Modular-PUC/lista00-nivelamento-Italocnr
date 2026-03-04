@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 
 public class Program {
-	public static void main(){
+	public static void main(String Args[]){
 		Scanner sc = new Scanner(System.in);
 		
 		int n, cont = 0;

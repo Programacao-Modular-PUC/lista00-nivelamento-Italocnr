@@ -7,7 +7,7 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		
 		double[][] vendas = new double[12][4];
-		String[] meses = {"Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Juho",
+		String[] meses = {"Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho",
 				"Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"};
 		double[] totalVendidoMes = new double[12]; double[] totalVendidoSemana = new double[4];
 		double valorTotalVendido =0;

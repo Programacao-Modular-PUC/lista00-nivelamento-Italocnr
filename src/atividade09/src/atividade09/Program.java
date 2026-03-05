@@ -15,7 +15,7 @@ public class Program {
 		}
 		
 		System.out.println("-----------------------------------------------------------");
-		System.out.println("Os numeros pares sao:");
+		System.out.println("Os numeros pares sao:\n");
 		for(int i=0; i < 6; i++) {
 			if (numeros[i] % 2 == 0) {
 				System.out.printf("Numero %d na posicao %d\n", numeros[i], i+1);
@@ -29,7 +29,7 @@ public class Program {
 		System.out.println("Os numeros impares sao:\n");
 		for(int i=0; i < 6; i++) {
 			if (numeros[i] % 2 != 0) {
-				System.out.printf("Numero %d na posicao %d\n", numeros[i], i);
+				System.out.printf("Numero %d na posicao %d\n", numeros[i], i+1);
 				contImpar++;
 			}
 		}

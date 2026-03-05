@@ -7,7 +7,7 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		
 		double[] temperaturas = new double[12];
-		String[] meses = {"Janeiro", "fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto",
+		String[] meses = {"Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto",
 				"Setembro", "Outubro", "Novembro", "Dezembro"};
 		double maiorTemp =0, menorTemp =0;
 		String mesMaiorTemp = null , mesMenorTemp = null;
@@ -24,7 +24,7 @@ public class Program {
 				menorTemp = temperaturas[i];
 				mesMaiorTemp = meses[i];
 				mesMenorTemp = meses[i];
-				numMaiorMes = i;
+				numMaiorMes = i+1;
 				numMenorMes = i+1;
 			}
 			else if(temperaturas[i] > maiorTemp) {
